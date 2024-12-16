@@ -45,7 +45,7 @@ To explore and simulate the current mirror designs, ensure you have the followin
 - A basic understanding of analog circuit design principles
 
 ## Project Report
-The detailed project report, containing theoretical explanations and analysis, is available in the `docs/` folder:  
+The detailed project report, containing theoretical explanations and analysis, is available here:  
 [Project_Report.pdf](https://github.com/HarshitSri-Analog/Current-Mirror-Topologies/blob/main/Current%20Mirror%20Doc_updated.pdf)
 
 ## Acknowledgments
