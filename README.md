@@ -46,7 +46,7 @@ To explore and simulate the current mirror designs, ensure you have the followin
 
 ## Project Report
 The detailed project report, containing theoretical explanations and analysis, is available in the `docs/` folder:  
-[Project_Report.pdf]()
+[Project_Report.pdf](https://github.com/HarshitSri-Analog/Current-Mirror-Topologies/blob/main/Current%20Mirror%20Doc_updated.pdf)
 
 ## Acknowledgments
 Special thanks to the contributors and the analog design community for inspiring this project. If you find this repository helpful, please consider giving it a ⭐!
