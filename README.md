@@ -22,7 +22,7 @@ This repository provides a detailed exploration of **current mirror topologies**
 
 ## Repository Structure
 ```
-├── Schematics/                                    # SPICE or EDA simulation files
+├── [Schematics/](https://github.com/HarshitSri-Analog/Current-Mirror-Topologies/commit/a331b44b3a11626f9fc2b3e185338491b2965b35)                                    # SPICE or EDA simulation files
 ├── current mirror Doc_updated/                    # Project report and theoretical documentation
 ├── Simulations and Results/                       # Simulation results and performance analysis
 ├── README.md                                      # Project overview and instructions
