@@ -1,32 +1,31 @@
 # Current Mirror and Its Topologies
 
 ## Overview
-This repository focuses on the design, analysis, and implementation of various **current mirror topologies**, which are critical components in analog circuit design. Current mirrors are widely used for biasing, signal amplification, and current regulation in analog systems. This project provides theoretical insights, circuit diagrams, and simulation files for different current mirror configurations.
+This repository provides a detailed exploration of **current mirror topologies**, essential components in analog circuit design. Current mirrors are pivotal for applications such as biasing, signal amplification, and current regulation. This project covers their design, analysis, and implementation, offering comprehensive insights into their functionality and performance.
 
 ## Topologies Covered
 1. **Simple Current Mirror**
-   - The fundamental configuration for current mirroring with minimal complexity.
+   - The foundational configuration for current mirroring, characterized by minimal complexity and ease of implementation.
 2. **Cascode Current Mirror**
-   - Improved output resistance and reduced current variation.
+   - Enhances output resistance and reduces current variation, making it ideal for high-performance analog circuits.
 3. **Wide-Swing Cascode Current Mirror**
-   - Optimized for maximizing output voltage swing while maintaining high output resistance.
+   - Designed to maximize output voltage swing while retaining high output resistance, addressing the limitations of conventional cascode designs.
 4. **Self-Bias Wide-Swing Cascode Current Mirror**
-   - Advanced topology with self-biasing for better stability and enhanced performance.
+   - An advanced topology that incorporates self-biasing for enhanced stability and optimized performance.
 
 ## Features
-- **Circuit Diagrams**: Clear schematic representations of all topologies.
-- **Simulation Files**: SPICE or equivalent EDA tool files for circuit analysis.
-- **Performance Analysis**: Detailed comparison of output resistance, compliance voltage, power consumption, and more.
-- **Theoretical Insights**: Explanations of the working principles and advantages of each topology.
-- **Applications**: Examples of how these topologies are used in analog systems like operational amplifiers, voltage references, and signal processing circuits.
+- **Circuit Diagrams**: High-quality schematic representations for each topology.
+- **Simulation Files**: Ready-to-use SPICE or equivalent EDA tool files for performance analysis.
+- **Performance Metrics**: Detailed evaluations, including output resistance, compliance voltage, power consumption, and voltage swing.
+- **Theoretical Insights**: In-depth explanations of the operating principles and design considerations of each topology.
+- **Applications**: Real-world use cases in analog systems such as operational amplifiers, voltage references, and signal processing circuits.
 
 ## Repository Structure
 ```
-├── diagrams/                # Circuit diagrams of the current mirror topologies
-├── simulations/             # SPICE or EDA simulation files
-├── docs/                    # Theoretical explanations and documentation
-├── results/                 # Simulation results and performance analysis
-├── README.md                # Project overview and instructions
+├── Schematics/                                    # SPICE or EDA simulation files
+├── current mirror Doc_updated/                    # Project report and theoretical documentation
+├── Simulations and Results/                       # Simulation results and performance analysis
+├── README.md                                      # Project overview and instructions
 ```
 
 ## Getting Started
@@ -41,8 +40,14 @@ This repository focuses on the design, analysis, and implementation of various *
 3. Open the simulation files in your preferred circuit simulation tool (e.g., LTspice, Cadence Virtuoso).
 
 ## Requirements
+To explore and simulate the current mirror designs, ensure you have the following:
 - Circuit simulation software (e.g., LTspice, Cadence Virtuoso, Multisim)
-- Basic understanding of analog circuit design
+- A basic understanding of analog circuit design principles
+
+## Project Report
+The detailed project report, containing theoretical explanations and analysis, is available in the `docs/` folder:  
+[Project_Report.pdf]()
 
 ## Acknowledgments
 Special thanks to the contributors and the analog design community for inspiring this project. If you find this repository helpful, please consider giving it a ⭐!
+
