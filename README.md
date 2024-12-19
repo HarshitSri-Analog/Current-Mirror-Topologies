@@ -26,13 +26,15 @@ The simple current mirror is a basic analog circuit used to replicate a referenc
 - M2’s gate is connected to M1’s gate, ensuring the same V_GS for both transistors.
 - Assumes matched transistors operating in saturation.
 
-### Advantages
+#### Advantages
 - Simple and easy to design.
 - Minimal transistor count.
 
-### Disadvantages
+#### Disadvantages
 - Poor output impedance.
 - Limited accuracy due to channel-length modulation.
+
+***Explaination:** This simplest form of a current mirror consists of two transistors, where the current is replicated (or mirrored) by ensuring that the transistors are matched in their characteristics. Typically, one transistor is configured to set a reference current, and the other transistor mirrors this current, maintaining an equivalent current in its branch.*
 
 ---
 
@@ -44,13 +46,15 @@ The cascode current mirror enhances the simple current mirror by increasing its 
 - Adds cascode devices (M3 and M4) to shield M1 and M2 from output voltage variations.
 - M3 and M4 are biased to ensure M1 and M2 remain in saturation.
 
-### Advantages Over Simple Current Mirror
+#### Advantages Over Simple Current Mirror
 - Higher output impedance.
 - Improved current mirroring accuracy.
 
-### Disadvantages
+#### Disadvantages
 - Requires additional biasing circuitry.
 - Increased complexity and transistor count.
+
+***Explaination:** This configuration is employed to achieve a higher output impedance, as an ideal current source is characterized by infinite output resistance. To make the current mirror closer to an ideal current source, this arrangement is utilized. Furthermore, due to the effects of channel-length modulation, accurate current mirroring is achieved only when the drain-to-source voltages (Vds) of both transistors are equal.*
 
 ---
 
@@ -62,13 +66,15 @@ The wide-swing cascode current mirror addresses the limited output swing of the 
 - Dynamically biases the cascode transistors’ gates to reduce the minimum voltage required for saturation.
 - Allows for a larger output voltage swing.
 
-### Advantages Over Cascode Current Mirror
+#### Advantages Over Cascode Current Mirror
 - Larger output voltage swing.
 - Retains high output impedance and accuracy.
 
-### Disadvantages
+#### Disadvantages
 - More complex biasing circuitry.
 - Increased design complexity.
+
+***Explaination:** When utilizing the cascode configuration in current mirrors, a notable challenge arises: the minimum output voltage required for accurate current mirroring is relatively high. This limitation reduces the output voltage swing of any circuitry employing the cascode configuration. However, this drawback is effectively addressed by implementing the wide-swing cascode configuration for the current mirror. In this design, an additional transistor, with a channel length four times that of the other transistors in the circuit, is introduced. The connections are arranged strategically to significantly lower the minimum output voltage required for current mirroring, thereby mitigating the issue and enhancing the performance of the circuit.*
 
 ---
 
@@ -80,14 +86,18 @@ This configuration incorporates self-biasing mechanisms to simplify external bia
 - Introduces a self-biasing network to generate required bias voltages internally.
 - Ensures all transistors operate in their desired regions without external adjustments.
 
-### Advantages Over Wide-Swing Cascode Current Mirror
+#### Advantages Over Wide-Swing Cascode Current Mirror
 - No need for external bias circuitry.
 - Enhanced robustness against process and supply variations.
 - Retains high output impedance and large output swing.
 
-### Disadvantages
+#### Disadvantages
 - Increased transistor count and silicon area.
 - More complex to analyze and optimize.
+
+***Explaination:** The drawback of increased power consumption in the wide-swing cascode configuration, caused by the use of two current sources, was effectively addressed by replacing one of the current sources with a resistor. This modification reduces the overall power consumption while maintaining the desired functionality.*
+
+**NOTE:** The self-biased and simple wide-swing configurations of current mirrors are utilized interchangeably, depending on the specific application and the requirements of the circuitry in which they are employed.
 
 ---
 
