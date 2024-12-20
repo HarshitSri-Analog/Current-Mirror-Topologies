@@ -3,6 +3,11 @@
 ## Overview
 This repository provides a detailed exploration of **current mirror topologies**, essential components in analog circuit design. Current mirrors are pivotal for applications such as biasing, signal amplification, and current regulation. This project covers their design, analysis, and implementation, offering comprehensive insights into their functionality and performance.
 
+## Tools Used
+
+- [Cadence Virtuoso Schematic Editor](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-schematic-editor.html) : The Cadence Virtuoso Schematic Editor provides numerous capabilities to facilitate fast and easy design entry, including design assistants that speed common tasks by as much as 5X. Well-defined component libraries allow faster design at both the gate and transistor levels.
+- [Cadence Virtuoso Circuit Simulator](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-fmc-analysis.html?utm_campaign=Custom_Virtuoso_Studio_product_eu_google_search_june_2023&utm_source=google&utm_medium=search&utm_content=cdn_paid_media&utm_content=Circuit_Simulation&s_kwcid=AL!14272!3!662289232220!b!!g!!circuit%20simulation&gad=1&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp8Z-SxLLihhZBFwTmCU69lX0z8FEUvoFW2uLaLdkUzkxbE_Gtb2_GUaAi4xEALw_wcB) : The Cadence Spectre FMC Analysis enables fast and comprehensive design space exploration using Monte Carlo simulations of complex analog, RF, I/O, mixed-signal blocks, memories, standard cells, and bit cells while maintaining necessary statistical accuracy. It works with the Spectre X and Spectre APS Simulators and allows you to distribute Monte Carlo simulation workloads to increase throughput.
+
 # Table of Content
 - [Topologies Covered](#Topologies-Covered)
   - [Simple Current Mirror](#1-Simple-Current-Mirror)
