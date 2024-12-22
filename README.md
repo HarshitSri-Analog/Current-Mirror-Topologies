@@ -1,14 +1,8 @@
 # Current Mirror and Its Topologies
 
-## Overview
-This repository provides a detailed exploration of **current mirror topologies**, essential components in analog circuit design. Current mirrors are pivotal for applications such as biasing, signal amplification, and current regulation. This project covers their design, analysis, and implementation, offering comprehensive insights into their functionality and performance.
-
-## Tools Used
-
-- [Cadence Virtuoso Schematic Editor](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-schematic-editor.html) : The Cadence Virtuoso Schematic Editor provides numerous capabilities to facilitate fast and easy design entry, including design assistants that speed common tasks by as much as 5X. Well-defined component libraries allow faster design at both the gate and transistor levels.
-- [Cadence Virtuoso Circuit Simulator](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-fmc-analysis.html?utm_campaign=Custom_Virtuoso_Studio_product_eu_google_search_june_2023&utm_source=google&utm_medium=search&utm_content=cdn_paid_media&utm_content=Circuit_Simulation&s_kwcid=AL!14272!3!662289232220!b!!g!!circuit%20simulation&gad=1&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp8Z-SxLLihhZBFwTmCU69lX0z8FEUvoFW2uLaLdkUzkxbE_Gtb2_GUaAi4xEALw_wcB) : The Cadence Spectre FMC Analysis enables fast and comprehensive design space exploration using Monte Carlo simulations of complex analog, RF, I/O, mixed-signal blocks, memories, standard cells, and bit cells while maintaining necessary statistical accuracy. It works with the Spectre X and Spectre APS Simulators and allows you to distribute Monte Carlo simulation workloads to increase throughput.
-
 # Table of Content
+- [Overview](#Overview)
+- [Tools Used](#Tools-Used)
 - [Topologies Covered](#Topologies-Covered)
   - [Simple Current Mirror](#1-Simple-Current-Mirror)
   - [Cascode Current Mirror](#2-Cascode-Current-Mirror)
@@ -18,6 +12,14 @@ This repository provides a detailed exploration of **current mirror topologies**
 - [Requirements](#Requirements)
 - [Project Report](#Projject-Report)
 - [Acknowledgement](#Acknowledgement)
+
+## Overview
+This repository provides a detailed exploration of **current mirror topologies**, essential components in analog circuit design. Current mirrors are pivotal for applications such as biasing, signal amplification, and current regulation. This project covers their design, analysis, and implementation, offering comprehensive insights into their functionality and performance.
+
+## Tools Used
+
+- [Cadence Virtuoso Schematic Editor](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-schematic-editor.html) : The Cadence Virtuoso Schematic Editor provides numerous capabilities to facilitate fast and easy design entry, including design assistants that speed common tasks by as much as 5X. Well-defined component libraries allow faster design at both the gate and transistor levels.
+- [Cadence Virtuoso Circuit Simulator](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-fmc-analysis.html?utm_campaign=Custom_Virtuoso_Studio_product_eu_google_search_june_2023&utm_source=google&utm_medium=search&utm_content=cdn_paid_media&utm_content=Circuit_Simulation&s_kwcid=AL!14272!3!662289232220!b!!g!!circuit%20simulation&gad=1&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp8Z-SxLLihhZBFwTmCU69lX0z8FEUvoFW2uLaLdkUzkxbE_Gtb2_GUaAi4xEALw_wcB) : The Cadence Spectre FMC Analysis enables fast and comprehensive design space exploration using Monte Carlo simulations of complex analog, RF, I/O, mixed-signal blocks, memories, standard cells, and bit cells while maintaining necessary statistical accuracy. It works with the Spectre X and Spectre APS Simulators and allows you to distribute Monte Carlo simulation workloads to increase throughput.
 
 ## Topologies Covered
 
@@ -126,6 +128,9 @@ To explore and simulate the current mirror designs, ensure you have the followin
 The detailed project report, containing theoretical explanations and analysis, is available here:  
 [Project_Report.pdf](https://github.com/HarshitSri-Analog/Current-Mirror-Topologies/blob/main/Current%20Mirror%20Doc_updated.pdf)
 
-## Acknowledgments
-Special thanks to the contributors and the analog design community for inspiring this project. If you find this repository helpful, please consider giving it a ⭐!
+Special thanks to the contributors and the analog design community for inspiring this project. 
+
+Feel free to explore the repository for insights into the design and implementation of Bandgap Reference circuits. Contributions and feedback are welcome!
+
+***If you find this repository helpful, please consider giving it a ⭐!***
 
