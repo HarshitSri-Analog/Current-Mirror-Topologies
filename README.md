@@ -43,8 +43,6 @@ The simple current mirror is a basic analog circuit used to replicate a referenc
 
 ***Explaination:** This simplest form of a current mirror consists of two transistors, where the current is replicated (or mirrored) by ensuring that the transistors are matched in their characteristics. Typically, one transistor is configured to set a reference current, and the other transistor mirrors this current, maintaining an equivalent current in its branch.*
 
----
-
 ## 2. Cascode Current Mirror
 
 The cascode current mirror enhances the simple current mirror by increasing its output impedance and improving accuracy.
@@ -63,8 +61,6 @@ The cascode current mirror enhances the simple current mirror by increasing its 
 
 ***Explaination:** This configuration is employed to achieve a higher output impedance, as an ideal current source is characterized by infinite output resistance. To make the current mirror closer to an ideal current source, this arrangement is utilized. Furthermore, due to the effects of channel-length modulation, accurate current mirroring is achieved only when the drain-to-source voltages (Vds) of both transistors are equal.*
 
----
-
 ## 3. Wide-Swing Cascode Current Mirror
 
 The wide-swing cascode current mirror addresses the limited output swing of the traditional cascode configuration.
@@ -82,8 +78,6 @@ The wide-swing cascode current mirror addresses the limited output swing of the 
 - Increased design complexity.
 
 ***Explaination:** When utilizing the cascode configuration in current mirrors, a notable challenge arises: the minimum output voltage required for accurate current mirroring is relatively high. This limitation reduces the output voltage swing of any circuitry employing the cascode configuration. However, this drawback is effectively addressed by implementing the wide-swing cascode configuration for the current mirror. In this design, an additional transistor, with a channel length four times that of the other transistors in the circuit, is introduced. The connections are arranged strategically to significantly lower the minimum output voltage required for current mirroring, thereby mitigating the issue and enhancing the performance of the circuit.*
-
----
 
 ## 4. Self-Biased Wide-Swing Cascode Current Mirror
 
@@ -105,8 +99,6 @@ This configuration incorporates self-biasing mechanisms to simplify external bia
 ***Explaination:** The drawback of increased power consumption in the wide-swing cascode configuration, caused by the use of two current sources, was effectively addressed by replacing one of the current sources with a resistor. This modification reduces the overall power consumption while maintaining the desired functionality.*
 
 **NOTE:** The self-biased and simple wide-swing configurations of current mirrors are utilized interchangeably, depending on the specific application and the requirements of the circuitry in which they are employed.
-
----
 
 ## Comparative Summary
 
